@@ -1,9 +1,9 @@
 {
     "name": "Feamework.Support",
     "references": [
-        "GUID:0fac274ade4856445803356745169acc",
-        "GUID:8e9ebc131f715864388ec4c46136cacf",
-        "GUID:e8206920b8b89454e8f09427507ffda2"
+        "Framework.Interface",
+        "Framework.Helper",
+        "Framework.Common"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

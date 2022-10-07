@@ -1,9 +1,7 @@
 {
-    "name": "Framework.Network",
+    "name": "Framework.Addressable.Editor",
     "references": [
-        "Framework.Common",
-        "Feamework.Support",
-        "Framework.Interface"
+        "Framework.Addressable"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -12,6 +10,12 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.addressables",
+            "expression": "1.0.0",
+            "define": "PACKAGE_ADDRESSABLES_EDITOR"
+        }
+    ],
     "noEngineReferences": false
 }

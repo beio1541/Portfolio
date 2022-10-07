@@ -1,9 +1,9 @@
 ﻿using Framework.Common;
-using Framework.Common.Network.Web;
+using Framework.Network.Web;
 using System;
 using UniRx;
 
-public class UniRxWebNetwork : Singleton<UniRxWebNetwork>, Framework.Common.Interface.ISingleton
+public class UniRxWebNetwork : Framework.Support.Singleton<UniRxWebNetwork>, Framework.Interface.ISingleton
 {
     AsyncSubject<Request> asyncSubject = null;
     protected override void OnInitialize()

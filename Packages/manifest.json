@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "com.beio.helper": "https://github.com/beio1541/Helper.git",
+    "com.beio.securityvalue": "https://github.com/beio1541/SecurityValue.git",
+    "com.neuecc.unirx": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts",
     "com.unity.addressables": "1.18.19",
     "com.unity.collab-proxy": "1.14.18",
     "com.unity.ide.visualstudio": "2.0.16",

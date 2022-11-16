@@ -1,5 +1,26 @@
 {
   "dependencies": {
+    "com.beio.helper": {
+      "version": "https://github.com/beio1541/Helper.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "682cb27f7adc1b75d26d453ade385213050694d1"
+    },
+    "com.beio.securityvalue": {
+      "version": "https://github.com/beio1541/SecurityValue.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "3b9c5b27de39af24c806662c46fc3a2a4ea06861"
+    },
+    "com.neuecc.unirx": {
+      "version": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "284d5c50d3f1ddd9fa7df3d382ea904732a9c2ff"
+    },
     "com.unity.addressables": {
       "version": "1.18.19",
       "depth": 0,

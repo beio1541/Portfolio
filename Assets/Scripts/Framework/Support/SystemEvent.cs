@@ -1,12 +1,15 @@
-﻿using Framework.Common.Helper;
-using System;
+﻿using System;
 using System.Collections.Generic;
+
+
 namespace Framework.Support
 {
     public class SystemEvent : Singleton<SystemEvent>, Interface.ISingleton
     {
-        Dictionary<(long, Type), Action<object>> events = null;
-        private (long, Type) GetKey<T>(T id) where T : unmanaged, Enum => (id.ToLong(), typeof(T));
+
+
+        Dictionary<(string, Type), Action<object>> events = null;
+        private (string, Type) GetKey<T>(T id) where T : unmanaged, Enum => (id.ToString(), typeof(T));
         public void BindEvent<T>(T type, Action<object> action) where T : unmanaged, Enum
         {
             var key = GetKey(type);
@@ -42,7 +45,7 @@ namespace Framework.Support
 
         protected override void OnInitialize()
         {
-            events = new Dictionary<(long, Type), Action<object>>();
+            events = new Dictionary<(string, Type), Action<object>>();
         }
     }
 }
